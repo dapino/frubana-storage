@@ -1,0 +1,386 @@
+[
+  {
+    "id": 28,
+    "category": "fragiles",
+    "size": 2,
+    "product": {
+      "name": "banana"
+    }
+  },
+  {
+    "id": 6,
+    "category": "fragiles",
+    "size": 1,
+    "product": {
+      "name": "strawberry"
+    }
+  },
+  {
+    "id": 7,
+    "category": "pesados",
+    "size": 1,
+    "product": {
+      "name": "banana"
+    }
+  },
+  {
+    "id": 50,
+    "category": "pesados",
+    "size": 2,
+    "product": {
+      "name": "banana"
+    }
+  },
+  {
+    "id": 98,
+    "category": "pesados",
+    "size": 1,
+    "product": {
+      "name": "apple"
+    }
+  },
+  {
+    "id": 24,
+    "category": "pesados",
+    "size": 1,
+    "product": {
+      "name": "apple"
+    }
+  },
+  {
+    "id": 47,
+    "category": "pesados",
+    "size": 1,
+    "product": {
+      "name": "banana"
+    }
+  },
+  {
+    "id": 9,
+    "category": "pesados",
+    "size": 1,
+    "product": {
+      "name": "apple"
+    }
+  },
+  {
+    "id": 7,
+    "category": "fragiles",
+    "size": 2,
+    "product": {
+      "name": "banana"
+    }
+  },
+  {
+    "id": 45,
+    "category": "pesados",
+    "size": 2,
+    "product": {
+      "name": "apple"
+    }
+  },
+  {
+    "id": 15,
+    "category": "pesados",
+    "size": 2,
+    "product": {
+      "name": "apple"
+    }
+  },
+  {
+    "id": 68,
+    "category": "pesados",
+    "size": 1,
+    "product": {
+      "name": "strawberry"
+    }
+  },
+  {
+    "id": 83,
+    "category": "perecederos",
+    "size": 1,
+    "product": {
+      "name": "banana"
+    }
+  },
+  {
+    "id": 83,
+    "category": "perecederos",
+    "size": 2,
+    "product": {
+      "name": "banana"
+    }
+  },
+  {
+    "id": 72,
+    "category": "fragiles",
+    "size": 1,
+    "product": {
+      "name": "banana"
+    }
+  },
+  {
+    "id": 36,
+    "category": "fragiles",
+    "size": 1,
+    "product": {
+      "name": "strawberry"
+    }
+  },
+  {
+    "id": 2,
+    "category": "fragiles",
+    "size": 2,
+    "product": {
+      "name": "apple"
+    }
+  },
+  {
+    "id": 1,
+    "category": "pesados",
+    "size": 2,
+    "product": {
+      "name": "apple"
+    }
+  },
+  {
+    "id": 36,
+    "category": "fragiles",
+    "size": 1,
+    "product": {
+      "name": "apple"
+    }
+  },
+  {
+    "id": 54,
+    "category": "pesados",
+    "size": 2,
+    "product": {
+      "name": "apple"
+    }
+  },
+  {
+    "id": 39,
+    "category": "fragiles",
+    "size": 2,
+    "product": {
+      "name": "apple"
+    }
+  },
+  {
+    "id": 30,
+    "category": "fragiles",
+    "size": 1,
+    "product": {
+      "name": "strawberry"
+    }
+  },
+  {
+    "id": 15,
+    "category": "fragiles",
+    "size": 1,
+    "product": {
+      "name": "apple"
+    }
+  },
+  {
+    "id": 26,
+    "category": "perecederos",
+    "size": 2,
+    "product": {
+      "name": "apple"
+    }
+  },
+  {
+    "id": 55,
+    "category": "pesados",
+    "size": 1,
+    "product": {
+      "name": "banana"
+    }
+  },
+  {
+    "id": 67,
+    "category": "pesados",
+    "size": 2,
+    "product": {
+      "name": "strawberry"
+    }
+  },
+  {
+    "id": 98,
+    "category": "pesados",
+    "size": 1,
+    "product": {
+      "name": "apple"
+    }
+  },
+  {
+    "id": 44,
+    "category": "perecederos",
+    "size": 2,
+    "product": {
+      "name": "strawberry"
+    }
+  },
+  {
+    "id": 78,
+    "category": "perecederos",
+    "size": 1,
+    "product": {
+      "name": "banana"
+    }
+  },
+  {
+    "id": 64,
+    "category": "perecederos",
+    "size": 1,
+    "product": {
+      "name": "strawberry"
+    }
+  },
+  {
+    "id": 79,
+    "category": "fragiles",
+    "size": 1,
+    "product": {
+      "name": "banana"
+    }
+  },
+  {
+    "id": 98,
+    "category": "fragiles",
+    "size": 2,
+    "product": {
+      "name": "apple"
+    }
+  },
+  {
+    "id": 72,
+    "category": "perecederos",
+    "size": 1,
+    "product": {
+      "name": "strawberry"
+    }
+  },
+  {
+    "id": 59,
+    "category": "fragiles",
+    "size": 1,
+    "product": {
+      "name": "apple"
+    }
+  },
+  {
+    "id": 2,
+    "category": "pesados",
+    "size": 1,
+    "product": {
+      "name": "banana"
+    }
+  },
+  {
+    "id": 40,
+    "category": "pesados",
+    "size": 1,
+    "product": {
+      "name": "banana"
+    }
+  },
+  {
+    "id": 99,
+    "category": "pesados",
+    "size": 2,
+    "product": {
+      "name": "apple"
+    }
+  },
+  {
+    "id": 66,
+    "category": "fragiles",
+    "size": 1,
+    "product": {
+      "name": "strawberry"
+    }
+  },
+  {
+    "id": 6,
+    "category": "perecederos",
+    "size": 1,
+    "product": {
+      "name": "apple"
+    }
+  },
+  {
+    "id": 44,
+    "category": "fragiles",
+    "size": 2,
+    "product": {
+      "name": "strawberry"
+    }
+  },
+  {
+    "id": 78,
+    "category": "pesados",
+    "size": 2,
+    "product": {
+      "name": "strawberry"
+    }
+  },
+  {
+    "id": 98,
+    "category": "perecederos",
+    "size": 1,
+    "product": {
+      "name": "banana"
+    }
+  },
+  {
+    "id": 52,
+    "category": "perecederos",
+    "size": 1,
+    "product": {
+      "name": "apple"
+    }
+  },
+  {
+    "id": 66,
+    "category": "fragiles",
+    "size": 1,
+    "product": {
+      "name": "apple"
+    }
+  },
+  {
+    "id": 16,
+    "category": "perecederos",
+    "size": 1,
+    "product": {
+      "name": "banana"
+    }
+  },
+  {
+    "id": 24,
+    "category": "perecederos",
+    "size": 2,
+    "product": {
+      "name": "banana"
+    }
+  },
+  {
+    "id": 18,
+    "category": "pesados",
+    "size": 1,
+    "product": {
+      "name": "apple"
+    }
+  },
+  {
+    "id": 24,
+    "category": "perecederos",
+    "size": 2,
+    "product": {
+      "name": "banana"
+    }
+  }
+]
