@@ -1,4 +1,4 @@
-#Frubana App de Bodega
+# Frubana App de Bodega
 Aplicación desarrollada en ReactJS
 
 ...<br>
