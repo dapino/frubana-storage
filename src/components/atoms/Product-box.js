@@ -4,7 +4,7 @@ class ProductBox extends Component {
     render() {
         return (
             <div className="Product-box">
-                producto
+                producto 1
             </div>
         )
     }
