@@ -3,11 +3,12 @@ import Navbar from "../organisms/Navbar";
 import Footer from "../organisms/Footer";
 import Sidebar from "../organisms/Sidebar";
 
-function DefaultTemplate(props){
+function SidebarTemplate(props){
     return (
         <div>
             <Navbar/>
             <main>
+                <Sidebar/>
                 {props.children}
             </main>
             <Footer/>
@@ -15,4 +16,4 @@ function DefaultTemplate(props){
     )
 }
 
-export default DefaultTemplate;
+export default SidebarTemplate;
