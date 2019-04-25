@@ -3,6 +3,8 @@
     position: fixed;
     left: 0;
     bottom: 0;
-    top: 70px;
+    top: 60px;
     background-color: #EEEEEE;
+    box-shadow: 1px 0px 8px -3px #333;
+    overflow-y: auto;
 }
