@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/index.css';
-import data from './services/data-example'
 import App from "./components/App";
+import './styles/index.css';
+import './styles/elements/typo.css';
+import './styles/elements/color.css';
 
-console.log(data)
 const appContainer = document.getElementById('app')
 
 ReactDOM.render(<App/>, appContainer );
