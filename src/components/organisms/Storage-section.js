@@ -1,10 +1,18 @@
 import React, { Component } from 'react';
-import ProductBox from "../atoms/Product-box";
+import ProductBox from "../molecules/Product-box";
+
+import '../../styles/elements/card.css'
+import '../../styles/components/Storage.css'
+
 
 class StorageSection extends Component {
     render() {
         return (
-            <div className="Storage-section">
+            <div className="Storage-section card col-3 bg-white">
+                <h2>{this.props.title}</h2>
+                <div className="row row--start">
+                    <ProductBox button={false}/>
+                </div>
             </div>
         )
     }

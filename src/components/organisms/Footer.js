@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
+import '../../styles/components/Footer.css'
+
 
 class Footer extends Component {
     render() {
         return (
-            <footer>
-                <a href="https://www.frubana.com/home">
-                    <img src="#" alt="Frubana logo"/>
-                </a>
+            <footer className="Footer">
+               <p>2019. Bodega Fruabana</p>
             </footer>
         )
     }

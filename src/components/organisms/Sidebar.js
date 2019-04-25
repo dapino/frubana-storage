@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import '../../styles/Sidebar.css'
-import ProductList from "../molecules/Product-list";
+import ProductList from "./Product-list";
+import '../../styles/components/Sidebar.css'
 
 class Sidebar extends Component {
     render() {
         return (
             <div className="Sidebar">
-                <ProductList/>
+                <ProductList />
             </div>
         )
     }

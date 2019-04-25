@@ -1,18 +1,22 @@
-import React, { Component } from 'react';
+import React, {Component, Fragment} from 'react';
 import Navbar from "../organisms/Navbar";
 import Footer from "../organisms/Footer";
 import Sidebar from "../organisms/Sidebar";
 
+import '../../styles/components/Template.css'
+
 function SidebarTemplate(props){
     return (
-        <div>
+        <Fragment>
             <Navbar/>
             <main>
                 <Sidebar/>
-                {props.children}
+                <div className="main-content sidebar-active">
+                    {props.children}
+                </div>
             </main>
             <Footer/>
-        </div>
+        </Fragment>
     )
 }
 
