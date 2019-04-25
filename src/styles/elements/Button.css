@@ -1,5 +1,22 @@
 .Button {
+    border: 1px solid #9aa739;
+    background-color: #9aa739;
+    color: white;
+    border-radius: 3px;
+    padding: .6em 2em;
+    font-size: .6em;
+    text-transform: uppercase;
+    box-shadow: 1px 0px 8px -3px #333;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    transition: all .3s ease;
+    cursor: pointer;
+}
 
+.Button:hover {
+    background-color: #647130;
+    box-shadow: 0 0px 5px -3px #333;
 }
 
 .Button--primary {

@@ -1,5 +1,7 @@
 .main-content {
     padding: 1em;
+    height: 100vh;
+    background-color: #f3f9f1;
 }
 
 .sidebar-active {
