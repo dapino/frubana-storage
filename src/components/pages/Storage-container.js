@@ -1,51 +1,47 @@
-import React, { Component, Fragment } from 'react';
-import StorageSection from "../organisms/Storage-section";
-import SidebarTemplate from "../templates/Sidebar-template";
+import React, { Component } from 'react';
 import dataExample from '../../services/data-example'
+import { connect }  from "react-redux";
+import * as actions from "../../actions"
+import { bindActionCreators } from 'redux'
 
 import '../../styles/elements/grid.css'
 import StoragePage from "./Storage-page";
 
 class StorageContainer extends Component {
-    constructor (props) {
-        super(props);
-        //TODO: Generar componentes de carga y errores.
-        this.state = {
-            data: {
-                storages: [],
-                products: []
-            }
-        }
-
-    }
 
     componentDidMount () {
         this.fetchCategories();
     }
 
+    componentDidUpdate () {
+
+    }
+
     fetchCategories =  () => {
         //TODO: Generar componentes de carga y errores.
-        let storageSections = [];
-
-        let categories = dataExample.filter(item => (
-            item.category
-        ))
-        categories.forEach( (i,k) => {
-            storageSections.push( { id: k + 1, titulo: i } )
-        })
-
-        this.setState({
-            data: {
-                storages : storageSections
-            }
-        })
+        //TODO: Petición a API.
+        this.props.actions.setStorageCategories(dataExample)
     }
 
     render () {
         return (
-            <StoragePage storages={this.state.storages}/>
+            <StoragePage/>
         )
     }
 }
 
-export default StorageContainer;
+
+const mapStateToProps = state => (
+    {
+        storages: state.getIn(['data', 'storages']),
+
+    }
+)
+
+const mapDispatchToProps = dispatch => (
+    {
+        actions: bindActionCreators(actions, dispatch)
+    }
+)
+
+export default connect(mapStateToProps, mapDispatchToProps)(StorageContainer);
