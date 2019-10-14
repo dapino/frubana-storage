@@ -23,6 +23,7 @@ class StoragePage extends Component {
                                 key={item.id}
                                 type={'storageArea'}
                                 title={item.title.toUpperCase()}
+                                {...item}
                             />
                         ))
                     }

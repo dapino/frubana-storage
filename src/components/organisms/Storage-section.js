@@ -10,6 +10,7 @@ class StorageSection extends Component {
         return (
             <div className="Storage-section card col-3 bg-white">
                 <h2>{this.props.title}</h2>
+                {console.log(this.props)}
                 <div className="row row--start">
                     <ProductBox button={false}/>
                 </div>

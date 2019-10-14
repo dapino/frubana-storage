@@ -32,6 +32,7 @@ class StorageContainer extends Component {
 
 
 const mapStateToProps = state => (
+    //
     {
         storages: state.getIn(['data', 'storages']),
 
@@ -44,4 +45,4 @@ const mapDispatchToProps = dispatch => (
     }
 )
 
-export default connect(mapStateToProps, mapDispatchToProps)(StorageContainer);
+export default connect(null, mapDispatchToProps)(StorageContainer);
